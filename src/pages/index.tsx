@@ -1,34 +1,17 @@
-import React, { Component } from 'react'
-import Head from 'next/head'
+import { useEffect } from 'react';
+import Head from 'next/head';
+import Router from 'next/router';
 
-import { connect } from 'react-redux'
+// the redirect will only happen on the client-side. This is by design,
+const IndexPage: React.FC<{}> = () => {
+  useEffect(() => {
+    Router.replace('/[type]', '/grocery');
+  });
+  return (
+    <Head>
+      <meta name="robots" content="noindex, nofollow" />
+    </Head>
+  );
+};
 
-class IndexPage extends Component<any, any> {
-  constructor(props: any) {
-    super(props)
-    this.state = {
-      isLoaded: false
-    }
-  }
-
-  render() {
-    if (!this.state.isLoaded) {
-      console.log('Load Data')
-      this.props.loadData()
-      this.setState({
-        ...this.state,
-        isLoaded: true
-      })
-    }
-
-    const data = this.props.pokemons ? this.props.pokemons : []
-    console.log('data', data, data.length)
-    return data.length && (
-      <>
-        <h1>Hello World</h1>
-      </>
-    )
-  }
-}
-
-export default IndexPage
+export default IndexPage;
