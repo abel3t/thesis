@@ -128,7 +128,7 @@ const Spinner = styled.div`
   border: 3px solid #ffffff;
   border-top: 3px solid
     ${(props) =>
-      props.color ? props.color : themeGet('primary.regular', '#009E7F')};
+      props.color ? props.color : themeGet('primary.regular', '#00A7E1')};
   border-radius: 50%;
   transition-property: transform;
   animation-name: ${rotate};

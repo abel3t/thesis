@@ -34,7 +34,7 @@ export const Heading = styled.h3`
   font-family: ${themeGet('fonts.heading', 'sans-serif')};
   font-size: ${themeGet('fontSizes.lg', '21')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
 `;
 
 export const SubHeading = styled.span`
@@ -49,7 +49,7 @@ export const SubHeading = styled.span`
 export const OfferSection = styled.div`
   padding: 20px;
   background-color: ${themeGet('colors.gray.200', '#F7F7F7')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +101,7 @@ export const HelperText = styled.p`
 //   }
 
 //   &:focus {
-//     border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+//     border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
 //   }
 
 //   &::placeholder {
@@ -161,7 +161,7 @@ export const LinkButton = styled.button`
   padding: 0;
   font-size: calc(${themeGet('fontSizes.base', '15')}px - 1px);
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   text-decoration: underline;
   cursor: pointer;
 `;

@@ -38,13 +38,13 @@ const SidebarMenu = styled(NavLink)<any>`
     padding: 15px 60px;
 
     &.current-page {
-      color: ${themeGet('colors.primary.regular', '#009e7f')};
-      border-left: 5px solid ${themeGet('colors.primary.regular', '#009e7f')};
+      color: ${themeGet('colors.primary.regular', '#00A7E1')};
+      border-left: 5px solid ${themeGet('colors.primary.regular', '#00A7E1')};
       padding-left: 55px;
     }
 
     &:hover {
-      color: ${themeGet('colors.primary.regular', '#009e7f')};
+      color: ${themeGet('colors.primary.regular', '#00A7E1')};
     }
 
     &:last-child {
@@ -67,7 +67,7 @@ const LogoutButton = styled.button`
   outline: 0;
 
   &:hover {
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#00A7E1')};
   }
 
   &:focus {

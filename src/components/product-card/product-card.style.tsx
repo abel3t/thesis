@@ -122,7 +122,7 @@ export const ProductInfo = styled.div`
         font-family: ${themeGet('fonts.body', 'sans-serif')};
         font-size: ${themeGet('fontSizes.base', '15')}px;
         font-weight: ${themeGet('fontWeights.bold', '700')};
-        color: ${themeGet('colors.primary.regular', '#009E7F')};
+        color: ${themeGet('colors.primary.regular', '#00A7E1')};
         @media (max-width: 767px) {
           font-size: calc(${themeGet('fontSizes.base', '15')}px - 1px);
         }
@@ -173,8 +173,8 @@ export const ProductInfo = styled.div`
       }
       &:hover {
         color: ${themeGet('colors.white', '#ffffff')};
-        background-color: ${themeGet('colors.primary.regular', '#009e7f')};
-        border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+        background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
+        border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
       }
       svg {
         fill: currentColor;
@@ -329,8 +329,8 @@ export const AuthorInfo = styled.span`
 //     }
 //     &:hover {
 //       color: #fff;
-//       background-color: ${themeGet('colors.primary.regular', '#009e7f')};
-//       border-color: #009e7f;
+//       background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
+//       border-color: #00A7E1;
 //     }
 //     svg {
 //       fill: currentColor;
@@ -350,7 +350,7 @@ export const Price = styled.span`
   font-family: ${themeGet('fonts.body', 'sans-serif')};
   font-size: ${themeGet('fontSizes.base', '15')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   @media (max-width: 767px) {
     font-size: calc(${themeGet('fontSizes.base', '15')}px - 1px);
   }
@@ -465,7 +465,7 @@ export const Duration = styled.span`
   font-size: ${themeGet('fontSizes.sm', '13')}px;
   font-weight: ${themeGet('fontWeights.regular', '400')};
   color: ${themeGet('colors.white', '#ffffff')};
-  background-color: ${themeGet('colors.primary.regular', '#009E7F')};
+  background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
   border-radius: ${themeGet('radii.big', '18px')};
   padding-top: 0;
   padding-bottom: 0;

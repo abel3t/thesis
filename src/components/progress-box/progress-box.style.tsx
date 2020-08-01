@@ -24,7 +24,7 @@ const StatusBox = styled('div')`
   font-family: ${themeGet('fonts.body', 'Lato')};
   font-size: ${themeGet('fontSizes.sm', '13')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   width: 36px;
   height: 36px;
   display: flex;
@@ -33,7 +33,7 @@ const StatusBox = styled('div')`
   border-radius: 50%;
   background-color: ${themeGet('colors.white', '#ffffff')};
   z-index: 1;
-  border: 1px dashed ${themeGet('colors.primary.regular', '#009E7F')};
+  border: 1px dashed ${themeGet('colors.primary.regular', '#00A7E1')};
 `;
 
 const CheckMarkWrapper = styled.span`
@@ -93,11 +93,11 @@ const ProgressBarWrapper = styled('div')`
 
   &.checked {
     ${ProgressBar} {
-      background-color: ${themeGet('colors.primary.regular', '#009E7F')};
+      background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
     }
 
     ${StatusBox} {
-      background-color: ${themeGet('colors.primary.regular', '#009E7F')};
+      background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
       color: #ffffff;
     }
   }

@@ -27,7 +27,7 @@ const CardWrapper = styled.label`
   transition: all 0.25s ease;
 
   &.active {
-    border: 1px solid ${themeGet('colors.primary.regular', '#009E7F')};
+    border: 1px solid ${themeGet('colors.primary.regular', '#00A7E1')};
     background-color: ${themeGet('colors.white', '#ffffff')};
   }
 
@@ -107,7 +107,7 @@ const ActionButton = styled.span`
   color: ${themeGet('colors.white', '#ffffff')};
 
   &.edit-btn {
-    background-color: ${themeGet('colors.primary.regular', '#009E7F')};
+    background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
   }
   &.delete-btn {
     background-color: ${themeGet('colors.secondary.regular', '#ff5b60')};

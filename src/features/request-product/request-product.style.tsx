@@ -43,7 +43,7 @@ export const FormTitle = styled.h3`
   font-family: ${themeGet('fonts.body', 'Lato')};
   font-size: ${themeGet('fontSizes.lg', '21')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   line-height: 1.2;
   margin: 0px;
 `;
@@ -169,7 +169,7 @@ export const ButtonGroup = styled.div`
     margin-left: 0;
     margin-right: auto;
     &:hover {
-      border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+      border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
     }
 
     @media (max-width: 700px) {
@@ -222,7 +222,7 @@ export const PaymentCardList = styled.div`
       opacity: 0;
       &:checked {
         & ~ .payment-card {
-          border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+          border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
         }
       }
     }
@@ -240,7 +240,7 @@ export const SavedCard = styled.div`
     font-family: ${themeGet('fonts.body', 'Lato')};
     font-size: ${themeGet('fontSizes.sm', '13')}px;
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#00A7E1')};
     margin-bottom: 10px;
     display: block;
   }
@@ -267,7 +267,7 @@ export const AddCard = styled.div`
       margin-bottom: 5px;
     }
     &:hover {
-      border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+      border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
     }
   }
   .safe-label {
@@ -316,7 +316,7 @@ export const OtherPayOption = styled.div`
       opacity: 0;
       &:checked {
         & ~ span {
-          border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+          border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
           background-color: ${themeGet('colors.white', '#ffffff')};
         }
       }
@@ -361,7 +361,7 @@ export const AddcontactWrapper = styled.div`
       margin-right: 5px;
     }
     &:hover {
-      border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+      border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
     }
   }
 `;
@@ -487,7 +487,7 @@ export const CouponCode = styled.p`
 
   span {
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#00A7E1')};
     margin-left: 5px;
   }
 `;

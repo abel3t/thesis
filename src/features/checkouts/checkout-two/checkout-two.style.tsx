@@ -103,7 +103,7 @@ export const InformationBox = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: ${themeGet('colors.primary.regular', '#009e7f')};
+      background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
       margin-right: 15px;
 
       @media (max-width: 600px) {
@@ -210,7 +210,7 @@ export const ButtonGroup = styled.div`
       font-family: ${themeGet('fonts.body', 'Lato')};
       font-size: ${themeGet('fontSizes.sm', '13')}px;
       font-weight: ${themeGet('fontWeights.bold', '700')};
-      color: ${themeGet('colors.primary.regular', '#009e7f')};
+      color: ${themeGet('colors.primary.regular', '#00A7E1')};
       position: absolute;
       top: 40px;
       right: 30px;
@@ -264,7 +264,7 @@ export const CouponCode = styled.p`
 
   span {
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#00A7E1')};
     margin-left: 10px;
   }
 `;
@@ -303,7 +303,7 @@ export const HaveCoupon = styled.button`
   font-family: ${themeGet('fonts.body', 'Lato')};
   font-size: ${themeGet('fontSizes.base', '15')}px;
   font-weight: ${themeGet('fontWeights.regular', '400')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   width: auto;
   height: auto;
   display: inline-block;

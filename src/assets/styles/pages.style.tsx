@@ -119,10 +119,10 @@ const OfferSection = styled.div`
 const Heading = styled.h2`
   font-size: ${themeGet('fontSizes.xl', '24')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   padding: 0px 20px 20px;
   margin: 50px 10px 20px;
-  border-bottom: 2px solid ${themeGet('colors.primary.regular', '#009e7f')};
+  border-bottom: 2px solid ${themeGet('colors.primary.regular', '#00A7E1')};
   width: auto;
   display: inline-block;
 `;

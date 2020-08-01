@@ -83,7 +83,7 @@ export const CopyButton = styled.button`
   font-family: ${themeGet('fonts.body', 'sans-serif')};
   font-size: ${themeGet('fontSizes.base', '15')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   padding: 0;
   cursor: pointer;
   flex-shrink: 0;
@@ -99,7 +99,7 @@ export const CopySuccess = styled.span`
   font-family: ${themeGet('fonts.body', 'sans-serif')};
   font-size: ${themeGet('fontSizes.sm', '13')}px;
   font-weight: ${themeGet('fontWeights.regular', '400')};
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   line-height: 18px;
   white-space: nowrap;
 `;

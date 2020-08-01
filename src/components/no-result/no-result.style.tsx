@@ -49,7 +49,7 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   color: ${themeGet('colors.white', '#ffffff')};
-  background-color: ${themeGet('colors.primary.regular', '#009e7f')};
+  background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
   height: 50px;
   border-radius: ${themeGet('radii.base', '6px')};
   font-family: ${themeGet('fonts.body', 'sans-serif')};

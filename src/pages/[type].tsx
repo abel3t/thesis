@@ -109,16 +109,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 };
 
 export async function getStaticPaths() {
+  const paths = 'grocery,makeup,bags,book,medicine,furniture,clothing'
   return {
-    paths: [
-      { params: { type: 'grocery' } },
-      { params: { type: 'makeup' } },
-      { params: { type: 'bags' } },
-      { params: { type: 'book' } },
-      { params: { type: 'medicine' } },
-      { params: { type: 'furniture' } },
-      { params: { type: 'clothing' } },
-    ],
+    paths: paths.split(',').map(path => ({ params: { type: path } })),
     fallback: false,
   };
 }

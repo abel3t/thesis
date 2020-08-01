@@ -17,7 +17,7 @@ export const NoCartBag = () => {
           gradientUnits="objectBoundingBox"
         >
           <stop offset="0" stopColor="#029477" />
-          <stop offset="1" stopColor="#009e7f" />
+          <stop offset="1" stopColor="#00A7E1" />
         </linearGradient>
       </defs>
       <g
@@ -41,7 +41,7 @@ export const NoCartBag = () => {
           data-name="Path 18691"
           d="M29.632,0H170.368A29.828,29.828,0,0,1,200,30.021V209.979A29.828,29.828,0,0,1,170.368,240H29.632A29.828,29.828,0,0,1,0,209.979V30.021A29.828,29.828,0,0,1,29.632,0Z"
           transform="translate(1403 381)"
-          fill="#009e7f"
+          fill="#00A7E1"
         />
         <path
           id="Rectangle_1852"
@@ -69,7 +69,7 @@ export const NoCartBag = () => {
           data-name="Path 18686"
           d="M446.31,375.181a30,30,0,1,1,30-30A30.034,30.034,0,0,1,446.31,375.181Zm0-53.294A23.3,23.3,0,1,0,469.9,345.181,23.471,23.471,0,0,0,446.31,321.887Z"
           transform="translate(1057.793 95.684)"
-          fill="#009e7f"
+          fill="#00A7E1"
         />
         <circle
           id="Ellipse_2874"
@@ -87,7 +87,7 @@ export const NoCartBag = () => {
           cy="15.046"
           r="15.046"
           transform="translate(1481.401 547.854) rotate(-45)"
-          fill="#009e7f"
+          fill="#00A7E1"
         />
         <path
           id="Path_18687"

@@ -175,7 +175,7 @@ export const ProductPrice = styled.div`
   font-family: ${themeGet('fonts.body', 'sans-serif')};
   font-size: calc(${themeGet('fontSizes.base', '15')}px + 1px);
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
 `;
 
 export const SalePrice = styled.span`

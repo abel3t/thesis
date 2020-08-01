@@ -11,7 +11,7 @@ export const Header = styled.header`
     font-family: ${themeGet('fonts.body', 'sans-serif')};
     font-size: ${themeGet('fontSizes.sm', '13')}px;
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#00A7E1')};
   }
 `;
 export const PaymentCardList = styled.div`
@@ -50,7 +50,7 @@ export const SavedCard = styled.span`
   font-family: ${themeGet('fonts.body', 'sans-serif')};
   font-size: ${themeGet('fontSizes.sm', '13')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   display: block;
 `;
 
@@ -106,7 +106,7 @@ export const AddCard = styled.div`
       margin-bottom: 5px;
     }
     &:hover {
-      border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+      border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
     }
   }
   .safe-label {
@@ -157,7 +157,7 @@ export const OtherPayOption = styled.div`
       opacity: 0;
       &:checked {
         & ~ span {
-          border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+          border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
           background-color: ${themeGet('colors.white', '#ffffff')};
         }
       }

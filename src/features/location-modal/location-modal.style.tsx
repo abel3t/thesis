@@ -22,7 +22,7 @@ export const LogoWrapper = styled.div`
   }
 `;
 export const Heading = styled.h3`
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   margin-bottom: 10px;
   font-family: ${themeGet('fonts.heading', 'sans-serif')};
   font-size: ${themeGet('fontSizes.lg', '21')}px;
@@ -41,7 +41,7 @@ export const SubHeading = styled.span`
 export const OfferSection = styled.div`
   padding: 20px;
   background-color: ${themeGet('colors.gray.200', '#f7f7f7')};
-  color: ${themeGet('colors.primary.regular', '#009e7f')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +77,7 @@ export const Input = styled.input`
   }
 
   &:focus {
-    border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+    border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
   }
 
   &::placeholder {

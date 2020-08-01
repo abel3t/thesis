@@ -139,13 +139,13 @@ export const Infos = styled.span`
 export const DeliveryOpt = styled.span`
   display: flex;
   flex-direction: column;
-  border: 1px solid ${themeGet('colors.primary.regular', '#009E7F')};
+  border: 1px solid ${themeGet('colors.primary.regular', '#00A7E1')};
   border-radius: ${themeGet('radii.small', '3px')};
   padding: 10px;
   font-family: ${themeGet('fonts.body', 'Lato')};
   font-size: ${themeGet('fontSizes.sm', '13')}px;
   font-weight: ${themeGet('fontWeights.bold', '700')};
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   @media (max-width: 990px) {
     flex-shrink: 0;
   }

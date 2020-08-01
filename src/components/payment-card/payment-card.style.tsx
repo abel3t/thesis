@@ -15,7 +15,7 @@ export const Wrapper = styled.label`
     opacity: 0;
     &:checked {
       & ~ .payment-card {
-        border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+        border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
       }
     }
   }

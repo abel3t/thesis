@@ -47,7 +47,7 @@ export const Wrapper = styled.div`
       }
 
       &:focus {
-        border-color: ${themeGet('colors.primary.regular', '#009e7f')};
+        border-color: ${themeGet('colors.primary.regular', '#00A7E1')};
       }
 
       &::placeholder {

@@ -40,7 +40,7 @@ const InputFeedback = styled.span`
 //   }
 
 //   &:focus {
-//     border-color: ${themeGet('colors.primary', '#009e7f')};
+//     border-color: ${themeGet('colors.primary', '#00A7E1')};
 //   }
 
 //   &::placeholder {

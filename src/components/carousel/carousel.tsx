@@ -13,7 +13,7 @@ const ButtonPrev = styled('button')`
   align-items: center;
   justify-content: center;
   background-color: ${themeGet('colors.white', '#ffffff')};
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   padding: 0;
   border-radius: 20px;
   box-shadow: ${themeGet('shadows.base', '0 3px 6px rgba(0, 0, 0, 0.16)')};
@@ -34,7 +34,7 @@ const ButtonNext = styled('button')`
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  color: ${themeGet('colors.primary.regular', '#009E7F')};
+  color: ${themeGet('colors.primary.regular', '#00A7E1')};
   padding: 0;
   border-radius: 20px;
   box-shadow: ${themeGet('shadows.base', '0 3px 6px rgba(0, 0, 0, 0.16)')};

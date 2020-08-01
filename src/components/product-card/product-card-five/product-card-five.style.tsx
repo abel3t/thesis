@@ -92,7 +92,7 @@ export const Price = styled.span`
 `;
 
 export const CartButton = styled(Button)`
-  background-color: ${themeGet('colors.primary.regular', '#009E7F')};
+  background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
   border: 0;
   color: ${themeGet('colors.white', '#ffffff')};
   border-radius: ${themeGet('radii.big', '18px')};
@@ -122,7 +122,7 @@ export const CartButton = styled(Button)`
     }
   }
   &:hover {
-    background-color: ${themeGet('colors.primary.regular', '#009E7F')};
+    background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
   }
   svg {
     fill: currentColor;

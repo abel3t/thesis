@@ -137,10 +137,10 @@ const HeaderWrapper = styled.header`
             border-bottom: 0;
           }
           &:hover {
-            color: ${themeGet('colors.primary.regular', '#009e7f')};
+            color: ${themeGet('colors.primary.regular', '#00A7E1')};
           }
           &.current-page {
-            color: ${themeGet('colors.primary.regular', '#009e7f')};
+            color: ${themeGet('colors.primary.regular', '#00A7E1')};
           }
 
           .menu-item-icon {
@@ -205,10 +205,10 @@ export const HeaderRightSide = styled.div`
         font-size: ${themeGet('fontSizes.base', '15')}px;
       }
       &:hover {
-        color: ${themeGet('colors.primary.regular', '#009e7f')};
+        color: ${themeGet('colors.primary.regular', '#00A7E1')};
       }
       &.current-page {
-        color: ${themeGet('colors.primary.regular', '#009e7f')};
+        color: ${themeGet('colors.primary.regular', '#00A7E1')};
       }
     }
   }
@@ -264,10 +264,10 @@ export const MainMenu = styled.div`
           }
 
           &:hover {
-            color: ${themeGet('colors.primary.regular', '#009e7f')};
+            color: ${themeGet('colors.primary.regular', '#00A7E1')};
           }
           &.current-page {
-            color: ${themeGet('colors.primary.regular', '#009e7f')};
+            color: ${themeGet('colors.primary.regular', '#00A7E1')};
             background-color: ${themeGet('colors.white', '#ffffff')};
           }
         }
@@ -342,7 +342,7 @@ export const SelectedType = styled.button`
     font-family: ${themeGet('fonts.body', 'Lato')};
     font-size: ${themeGet('fontSizes.base', '15')}px;
     font-weight: ${themeGet('fontWeights.bold', '700')};
-    color: ${themeGet('colors.primary.regular', '#009e7f')};
+    color: ${themeGet('colors.primary.regular', '#00A7E1')};
     text-decoration: none;
 
     &:first-child {
@@ -511,7 +511,7 @@ export const DrawerMenuItem = styled.div`
       transition: 0.15s ease-in-out;
 
       &:hover {
-        color: ${themeGet('colors.primary.regular', '#009e7f')};
+        color: ${themeGet('colors.primary.regular', '#00A7E1')};
       }
       &:before {
         content: '';
@@ -524,10 +524,10 @@ export const DrawerMenuItem = styled.div`
         background: transparent;
       }
       &.current-page {
-        color: ${themeGet('colors.primary.regular', '#009e7f')};
+        color: ${themeGet('colors.primary.regular', '#00A7E1')};
         font-weight: ${themeGet('fontWeights.bold', '700')};
         &:before {
-          background-color: ${themeGet('colors.primary.regular', '#009e7f')};
+          background-color: ${themeGet('colors.primary.regular', '#00A7E1')};
         }
       }
     }

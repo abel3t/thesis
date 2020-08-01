@@ -135,12 +135,12 @@ export const Products: React.FC<ProductsProps> = ({
             // intlButtonId="loadMoreBtn"
             // size="small"
             // isLoading={loadingMore}
-            // loader={<Loader color="#009E7F" />}
+            // loader={<Loader color="#00A7E1" />}
             // style={{
             //   minWidth: 135,
             //   backgroundColor: '#ffffff',
             border="1px solid #f1f1f1"
-            //   color: '#009E7F',
+            //   color: '#00A7E1',
             // }}
           >
             <FormattedMessage id="loadMoreButton" defaultMessage="Load More" />
