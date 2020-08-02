@@ -3,7 +3,6 @@ import { NextPage, GetStaticProps } from 'next';
 import gql from 'graphql-tag';
 import { useQuery } from '@apollo/react-hooks';
 import { SEO } from 'components/seo';
-import CartPopUp from 'features/carts/cart-popup';
 import { Modal } from '@redq/reuse-modal';
 
 import {
@@ -62,7 +61,6 @@ const GiftCardPage: NextPage<GiftCardProps> = ({ deviceType }) => {
 
         <Footer />
       </OfferPageWrapper>
-      <CartPopUp deviceType={deviceType} />
     </Modal>
   );
 };

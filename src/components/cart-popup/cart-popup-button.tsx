@@ -1,15 +1,11 @@
 import React from 'react';
 import {
   CartPopupButtonStyled,
-  ButtonImgBox,
-  ItemCount,
-  PriceBox,
   CartPopupBoxButton,
-  PriceBoxAlt,
   TotalItems,
 } from './cart-popup.style';
-import { ShoppingBag } from 'assets/icons/ShoppingBag';
-
+import Badge from '@material-ui/core/Badge';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 type CartButtonProps = {
   style?: React.CSSProperties;
   itemCount?: number;
@@ -22,45 +18,29 @@ type CartButtonProps = {
 
 const CartPopupButton: React.FC<CartButtonProps> = ({
   itemCount,
-  itemPostfix = 'items',
-  price,
-  pricePrefix = '$',
   style,
   onClick,
   className,
 }) => (
   <CartPopupButtonStyled style={style} onClick={onClick} className={className}>
-    <ButtonImgBox>
-      <ShoppingBag />
-    </ButtonImgBox>
-    <ItemCount>
-      {itemCount} {itemPostfix}
-    </ItemCount>
-    <PriceBox>
-      {pricePrefix}
-      {parseFloat(`${price}`).toFixed(2)}
-    </PriceBox>
+    <Badge badgeContent={itemCount || 0} color="error" showZero>
+      <ShoppingCartIcon />
+    </Badge>
   </CartPopupButtonStyled>
 );
 
 export const BoxedCartButton: React.FC<CartButtonProps> = ({
   itemCount,
-  itemPostfix = 'items',
-  price,
-  pricePrefix = '$',
   style,
   onClick,
   className,
 }) => (
   <CartPopupBoxButton style={style} onClick={onClick} className={className}>
     <TotalItems>
-      <ShoppingBag />
-      {itemCount} {itemPostfix}
+      <Badge badgeContent={itemCount || 0} color="error" showZero>
+        <ShoppingCartIcon />
+      </Badge>
     </TotalItems>
-    <PriceBoxAlt>
-      {pricePrefix}
-      {parseFloat(`${price}`).toFixed(2)}
-    </PriceBoxAlt>
   </CartPopupBoxButton>
 );
 

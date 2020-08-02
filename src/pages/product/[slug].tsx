@@ -15,9 +15,6 @@ const ProductDetails = dynamic(() =>
 const ProductDetailsBook = dynamic(() =>
   import('components/product-details/product-details-two/product-details-two')
 );
-const CartPopUp = dynamic(() => import('features/carts/cart-popup'), {
-  ssr: false,
-});
 
 type Props = {
   deviceType?: {
@@ -50,7 +47,6 @@ const ProductPage: NextPage<Props> = ({ data, deviceType }) => {
         <ProductSingleWrapper>
           <ProductSingleContainer>
             {content}
-            <CartPopUp deviceType={deviceType} />
           </ProductSingleContainer>
         </ProductSingleWrapper>
       </Modal>

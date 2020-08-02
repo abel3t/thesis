@@ -1,4 +1,5 @@
 import React from 'react';
+import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import { openModal, closeModal } from '@redq/reuse-modal';
 import MobileDrawer from './mobile-drawer';
@@ -20,6 +21,8 @@ import Logo from 'layouts/logo/logo';
 import LanguageSwitcher from './menu/language-switcher/language-switcher';
 import { isCategoryPage } from '../is-home-page';
 import useDimensions from 'utils/useComponentSize';
+
+const CartMenu = dynamic(() => import('./menu/cart-menu'), { ssr: false});
 
 type MobileHeaderProps = {
   className?: string;
@@ -80,6 +83,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ className }) => {
         </LogoWrapper>
 
         <LanguageSwitcher />
+        <CartMenu deviceType={{ mobile: true, tablet: false, desktop: false }} />
 
         {isHomePage ? (
           <SearchWrapper

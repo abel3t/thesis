@@ -26,9 +26,6 @@ const Sidebar = dynamic(() => import('layouts/sidebar/sidebar'));
 const Products = dynamic(() =>
   import('components/product-grid/product-list/product-list')
 );
-const CartPopUp = dynamic(() => import('features/carts/cart-popup'), {
-  ssr: false,
-});
 
 const CategoryPage: React.FC<any> = ({ deviceType }) => {
   const { query } = useRouter();
@@ -66,6 +63,7 @@ const CategoryPage: React.FC<any> = ({ deviceType }) => {
         <MainContentArea>
           <SidebarSection>
             <Sidebar type={PAGE_TYPE} deviceType={deviceType} />
+
           </SidebarSection>
           <ContentSection>
             <div ref={targetRef}>
@@ -77,7 +75,6 @@ const CategoryPage: React.FC<any> = ({ deviceType }) => {
             </div>
           </ContentSection>
         </MainContentArea>
-        <CartPopUp deviceType={deviceType} />
       </Modal>
     </>
   );

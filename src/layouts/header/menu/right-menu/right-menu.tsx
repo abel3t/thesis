@@ -6,6 +6,7 @@ import LanguageSwitcher from '../language-switcher/language-switcher';
 import { HelpIcon } from 'assets/icons/HelpIcon';
 import { RightMenuBox } from './right-menu.style';
 const AuthMenu = dynamic(() => import('../auth-menu'), { ssr: false });
+const CartMenu = dynamic(() => import('../cart-menu'), { ssr: false});
 
 type Props = {
   onLogout: () => void;
@@ -44,6 +45,7 @@ export const RightMenu: React.FC<Props> = ({
         onLogout={onLogout}
         isAuthenticated={isAuthenticated}
       />
+      <CartMenu deviceType={{ mobile: false, tablet: false, desktop: false }} />
     </RightMenuBox>
   );
 };
