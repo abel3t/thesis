@@ -83,7 +83,8 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({ className }) => {
         </LogoWrapper>
 
         <LanguageSwitcher />
-        <CartMenu deviceType={{ mobile: true, tablet: false, desktop: false }} />
+
+        {isHomePage && <CartMenu deviceType={{ mobile: false, tablet: true, desktop: true }} />}
 
         {isHomePage ? (
           <SearchWrapper
