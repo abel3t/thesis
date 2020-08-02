@@ -37,7 +37,6 @@ export const TextCartItem: React.FC<Props> = ({
         onIncrement={onIncrement}
         variant="lightVertical"
       />
-      {/* <Image src={image} /> */}
       <Information>
         <Name>{name}</Name>
       </Information>

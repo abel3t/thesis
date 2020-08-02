@@ -291,19 +291,6 @@ const Checkout: React.FC<MyFormProps> = ({ token, deviceType }) => {
                   />
                 )}
                 secondaryComponent={
-                  // <Button
-                  //   title="Add Address"
-                  //   iconPosition="right"
-                  //   colors="primary"
-                  //   size="small"
-                  //   variant="outlined"
-                  //   type="button"
-                  //   intlButtonId="addAddressBtn"
-                  //   onClick={() =>
-                  //     handleModal(UpdateAddress, 'add-address-modal')
-                  //   }
-                  // />
-
                   <Button
                     size="big"
                     variant="outlined"
@@ -353,19 +340,6 @@ const Checkout: React.FC<MyFormProps> = ({ token, deviceType }) => {
                   />
                 )}
                 secondaryComponent={
-                  // <Button
-                  //   title='Add Contact'
-                  //   iconPosition='right'
-                  //   colors='primary'
-                  //   size='small'
-                  //   variant='outlined'
-                  //   type='button'
-                  //   intlButtonId='addContactBtn'
-                  //   onClick={() =>
-                  //     handleModal(UpdateContact, 'add-contact-modal')
-                  //   }
-                  // />
-
                   <Button
                     size="big"
                     variant="outlined"

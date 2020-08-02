@@ -38,7 +38,6 @@ const CartPopupButton: React.FC<CartButtonProps> = ({
     </ItemCount>
     <PriceBox>
       {pricePrefix}
-      {/* {price} */}
       {parseFloat(`${price}`).toFixed(2)}
     </PriceBox>
   </CartPopupButtonStyled>

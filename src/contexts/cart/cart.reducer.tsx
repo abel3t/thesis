@@ -1,4 +1,3 @@
-// export const cartItemsTotalPrice = (items, { discountInPercent = 0 } = {}) => {
 export const cartItemsTotalPrice = (items, coupon = null) => {
   if (items === null || items.length === 0) return 0;
   const itemCost = items.reduce((total, item) => {
@@ -11,8 +10,6 @@ export const cartItemsTotalPrice = (items, coupon = null) => {
   const discount = coupon
     ? (itemCost * Number(coupon.discountInPercent)) / 100
     : 0;
-  // itemCost * discountRate * TAX_RATE + shipping;
-  // return itemCost * discountRate;
   return itemCost - discount;
 };
 // cartItems, cartItemToAdd
