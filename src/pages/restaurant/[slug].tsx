@@ -36,7 +36,7 @@ const ProductPage: NextPage<Props> = ({ deviceType }) => {
   return (
     <>
       <SEO
-        title={`${data?.vendor?.name} - PickBazar`}
+        title={`${data?.vendor?.name} - ThesisShop`}
         description={`${data?.vendor?.name} Details`}
       />
       <Modal>

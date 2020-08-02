@@ -12,7 +12,7 @@ import { Modal } from '@redq/reuse-modal';
 const OrderPage: NextPage = () => {
   return (
     <>
-      <SEO title="Order - PickBazar" description="Order Details" />
+      <SEO title="Order - ThesisShop" description="Order Details" />
       <Modal>
         <PageWrapper>
           <SidebarSection>

@@ -73,7 +73,7 @@ export const HelpPageContainer = styled.div`
 export default function () {
   return (
     <Modal>
-      <SEO title="F.A.Q - PickBazar" description="F.A.Q Details" />
+      <SEO title="F.A.Q - ThesisShop" description="F.A.Q Details" />
       <HelpPageWrapper>
         <HelpPageContainer>
           <Heading>F.A.Q</Heading>

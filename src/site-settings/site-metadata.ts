@@ -1,5 +1,5 @@
 export const siteMetadata = {
-  title: `PickBazar`,
+  title: `ThesisShop`,
   author: {
     name: `RedQ, Inc`,
     summary: ``,

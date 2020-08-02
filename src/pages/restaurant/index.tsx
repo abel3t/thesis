@@ -43,7 +43,7 @@ function RestaurantPage({ deviceType }) {
 
   return (
     <>
-      <SEO title="Restaurant - PickBazar" description="Restaurant Details" />
+      <SEO title="Restaurant - ThesisShop" description="Restaurant Details" />
       <Modal>
         <Banner
           intlTitleId="foodsTitle"
