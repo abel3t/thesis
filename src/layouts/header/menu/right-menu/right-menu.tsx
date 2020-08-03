@@ -45,7 +45,7 @@ export const RightMenu: React.FC<Props> = ({
         onLogout={onLogout}
         isAuthenticated={isAuthenticated}
       />
-      <CartMenu deviceType={{ mobile: false, tablet: true, desktop: false }} />
+      <CartMenu deviceType={{ mobile: false, tablet: true, desktop: true }} />
       
     </RightMenuBox>
   );

@@ -1,4 +1,4 @@
-export const cartAnimation = (event) => {
+export const cartAnimation = (event, deviceType) => {
   const getClosest = function (elem, selector) {
     for (; elem && elem !== document; elem = elem.parentNode) {
       if (elem.matches(selector)) return elem;
@@ -8,7 +8,8 @@ export const cartAnimation = (event) => {
 
   // start animation block
   let imgToDrag = getClosest(event.target, '.product-card');
-  let viewCart = document.getElementsByClassName('product-cart')[0];
+  
+  let viewCart = deviceType.mobile ? document.getElementsByClassName('product-cart')[0] : document.getElementsByClassName('product-cart')[1];
   let imgToDragImage = imgToDrag.querySelector('.product-image');
 
   let disLeft = imgToDrag.getBoundingClientRect().left;
