@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@apollo/react-hooks": "3.1.5",
-    "@apollo/react-ssr": "3.1.5",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@redq/reuse-modal": "1.2.4-beta.0.63",
@@ -25,6 +24,10 @@
     "formik": "^2.1.4",
     "graphql": "^15.1.0",
     "graphql-tag": "2.10.3",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
     "js-cookie": "^2.2.1",
     "localforage": "^1.7.4",
     "mobile-detect": "^1.4.4",
@@ -57,10 +60,12 @@
     "styled-components": "^5.1.1",
     "styled-system": "^5.1.5",
     "stylis-plugin-rtl": "^1.0.0",
+    "svg-sprite-loader": "^5.0.0",
     "typeface-lato": "^0.0.75",
     "typeface-poppins": "^0.0.72",
     "url": "^0.11.0",
     "uuid": "^8.1.0",
+    "webp-loader": "^0.6.0",
     "yup": "^0.29.1"
   },
   "devDependencies": {
@@ -74,10 +79,6 @@
     "@types/styled-system": "^5.1.9",
     "@types/uuid": "^8.0.0",
     "@types/yup": "^0.29.1",
-    "babel-plugin-styled-components": "^1.10.7",
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
     "typescript": "^3.9.5"
   }
 }
