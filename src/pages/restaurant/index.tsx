@@ -24,8 +24,8 @@ import { GET_PRODUCTS } from 'graphql/query/products.query';
 import { GET_CATEGORIES } from 'graphql/query/category.query';
 
 const Sidebar = dynamic(() => import('layouts/sidebar/sidebar'));
-const Products = dynamic(() =>
-  import('components/product-grid/product-list-two/product-list-two')
+const Products = dynamic(
+  () => import('components/product-grid/product-list-two/product-list-two')
 );
 const PAGE_TYPE = 'restaurant';
 
@@ -100,7 +100,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       initialApolloState: apolloClient.cache.extract(),
     },
-    revalidate: 1,
+    unstable_revalidate: 1,
   };
 };
 

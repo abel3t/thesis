@@ -23,8 +23,8 @@ import { GET_PRODUCTS } from 'graphql/query/products.query';
 import { GET_CATEGORIES } from 'graphql/query/category.query';
 import { CATEGORY_MENU_ITEMS } from 'site-settings/site-navigation';
 const Sidebar = dynamic(() => import('layouts/sidebar/sidebar'));
-const Products = dynamic(() =>
-  import('components/product-grid/product-list/product-list')
+const Products = dynamic(
+  () => import('components/product-grid/product-list/product-list')
 );
 
 const CategoryPage: React.FC<any> = ({ deviceType }) => {
@@ -63,7 +63,6 @@ const CategoryPage: React.FC<any> = ({ deviceType }) => {
         <MainContentArea>
           <SidebarSection>
             <Sidebar type={PAGE_TYPE} deviceType={deviceType} />
-
           </SidebarSection>
           <ContentSection>
             <div ref={targetRef}>
@@ -101,14 +100,14 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       initialApolloState: apolloClient.cache.extract(),
     },
-    revalidate: 1,
+    unstable_revalidate: 1,
   };
 };
 
 export async function getStaticPaths() {
-  const paths = 'grocery,makeup,bags,book,medicine,furniture,clothing'
+  const paths = 'grocery,makeup,bags,book,medicine,furniture,clothing';
   return {
-    paths: paths.split(',').map(path => ({ params: { type: path } })),
+    paths: paths.split(',').map((path) => ({ params: { type: path } })),
     fallback: false,
   };
 }

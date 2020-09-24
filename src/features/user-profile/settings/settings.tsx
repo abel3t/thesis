@@ -109,7 +109,6 @@ const SettingsContent: React.FC<SettingsContentProps> = ({ deviceType }) => {
       variables: { meInput: JSON.stringify({ name, email }) },
     });
   };
-
   return (
     <SettingsForm>
       <SettingsFormContent>
@@ -133,7 +132,7 @@ const SettingsContent: React.FC<SettingsContentProps> = ({ deviceType }) => {
               type='text'
               label='Name'
               name='name'
-              value={state.name}
+              value={'Trần Tâm Tỏ'}
               onChange={handleChange}
               backgroundColor='#F7F7F7'
               height='48px'
@@ -152,7 +151,7 @@ const SettingsContent: React.FC<SettingsContentProps> = ({ deviceType }) => {
               type='email'
               name='email'
               label='Email Address'
-              value={state.email}
+              value={'tamtotran5667@gmail.com'}
               onChange={handleChange}
               backgroundColor='#F7F7F7'
               // intlInputLabelId="profileEmailField"
